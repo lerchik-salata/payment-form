@@ -45,6 +45,7 @@ const FormInput = ({ name, label, mask, ...rest }: Props) => {
                         <Cleave
                             {...field}
                             options={getOptions()}
+                            htmlRef={field.ref}
                             onChange={(e: React.ChangeEvent<HTMLInputElement>) => field.onChange(e.target.value)}
                             className={`${styles.input} ${hasError ? styles.inputError : ""}`}
                             {...rest}

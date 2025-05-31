@@ -14,7 +14,8 @@ const Form = () => {
 
     const methods = useForm<PaymentSchema>({
         resolver: zodResolver(paymentSchema),
-        mode: "onChange",
+        mode: "onTouched",
+        reValidateMode: "onChange",
         defaultValues: {
             cardNumber: "",
             expiry: "",

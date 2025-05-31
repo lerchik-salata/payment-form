@@ -81,3 +81,12 @@
     transform: rotate(360deg);
   }
 }
+
+@media(max-width: 452px) {
+  .paymentButton {
+    &:active:not(:disabled) {
+      transform: translateY(6px);
+      filter: brightness(0.85);
+    }
+  }
+}
