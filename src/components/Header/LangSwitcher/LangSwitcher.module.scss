@@ -1,0 +1,32 @@
+.langSwitcher {
+  display: flex;
+}
+
+.lang {
+  background: none;
+  border: none;
+  padding: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: $text-tertiary;
+
+  &:hover {
+    color: $text-primary;
+  }
+
+  &.active {
+    color: $text-primary;
+  }
+}
+
+@media(max-width: 1000px) {
+  .lang {
+    display: block;
+    color: $text-primary;
+
+    &.active {
+      display: none;
+    }
+  }
+}

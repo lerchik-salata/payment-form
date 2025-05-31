@@ -1,0 +1,83 @@
+.paymentButton {
+  position: relative;
+  background-color: $primary;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  width: 100%;
+  overflow: hidden;
+  transition: all 100ms ease-in-out;
+  transform: translateY(0);
+  filter: brightness(1);
+
+  &:hover:not(:disabled) {
+    transform: translateY(-2px);
+    filter: brightness(1.04);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(4px);
+    filter: brightness(0.92);
+  }
+
+  &.processing {
+    transform: translateY(-2px);
+    filter: brightness(1.04);
+    cursor: default;
+
+    .paymentText {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+
+    .processingText {
+      opacity: 1;
+      transform: translate(-50%, -50%) translateY(0);
+    }
+  }
+}
+
+.paymentText,
+.processingText {
+  display: inline-block;
+  transition: opacity 120ms ease-out, transform 120ms ease-out;
+}
+
+.paymentText {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.processingText {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) translateY(16px);
+  opacity: 0;
+}
+
+.spinner {
+  position: absolute;
+  left: calc(50% - 112px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.spinnerSvg {
+  animation: rotate 1s linear infinite;
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}

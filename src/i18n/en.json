@@ -1,0 +1,47 @@
+{
+  "back": "Back",
+  "powered": "Powered by",
+  "checkout": {
+    "title": "Order info <= 100 char.",
+    "descriptionLabel": "Description <= 400 char.",
+    "productTitle": "Lamel Professional Smart Skin Compact Powder",
+    "productSubtitle": "Face powder",
+    "priceFree": "5 days free",
+    "priceAfter": "then 299.99 UAH per 14 days"
+  },
+  "checkoutForm": {
+    "title": "Checkout",
+    "freeTrial": "5 days free",
+    "priceInfo": "then 299.99 UAH per 14 days",
+    "orPayWithCard": "or pay with card",
+    "infoText": "You’ll have your <bold>Plan Pro during 1 year</bold>. After this period of time, your plan will be <bold>automatically renewed</bold> with its original price without any discounts applied.",
+    "applePayAlt": "Apple Pay"
+  },
+  "form": {
+    "snackbarSuccess": "Payment successful",
+    "cardNumber": "Card Number",
+    "cardPlaceholder": "1234 1234 1234 1234",
+    "expiry": "Expiration Date",
+    "expiryPlaceholder": "MM/YY",
+    "cvc": "CVC",
+    "cvcPlaceholder": "•••"
+  },
+  "submitBtn": {
+    "pay": "Pay {{amount}} UAH",
+    "processing": "Processing payment",
+    "loadingAlt": "Loading"
+  },
+  "formInput": {
+    "cvcTooltip": "3 digits on the back of your card"
+  },
+  "validation": {
+    "cardNumberRequired": "Card number is required",
+    "cardNumberInvalid": "Card number must be in format XXXX XXXX XXXX XXXX",
+    "expiryRequired": "Expiration date is required",
+    "expiryInvalidFormat": "Format should be MM/YY",
+    "expiryExpired": "Card has expired",
+    "cvcRequired": "CVC is required",
+    "cvcLength": "CVC should be 3 or 4 digits",
+    "cvcInvalid": "CVC must be numeric"
+  }
+}

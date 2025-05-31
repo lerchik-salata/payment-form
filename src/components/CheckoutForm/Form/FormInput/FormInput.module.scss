@@ -1,0 +1,32 @@
+.inputWrapper {
+  position: relative;
+}
+
+.formInput {
+  label {
+    color: $text-secondary;
+  }
+
+  input {
+    border: 1px solid $textfield-default;
+    border-radius: 6px;
+    padding: 10px 12px;
+    display: block;
+    width: 100%;
+    color: $text-primary;
+
+    &::placeholder {
+      color: $text-secondary;
+    }
+
+    &.inputError {
+      border-color: $error;
+    }
+  }
+}
+
+.error {
+  color: $error;
+  margin-top: 4px;
+  font-size: 12px;
+}

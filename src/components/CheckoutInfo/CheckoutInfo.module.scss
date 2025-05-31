@@ -1,0 +1,25 @@
+.orderInfo {
+  background: $bg-light;
+  border-radius: 8px;
+  padding: 32px;
+
+  hr {
+    margin: 16px 0;
+    height: 1px;
+    background: $divider-light;
+  }
+}
+
+.orderDetails {
+  margin-top: 24px;
+}
+
+.orderPrice {
+  text-align: right;
+}
+
+@media(max-width: 1000px) {
+  .orderInfo {
+    padding: 12px 16px;
+  }
+}

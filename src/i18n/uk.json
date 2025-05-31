@@ -1,0 +1,47 @@
+{
+  "back": "Назад",
+  "powered": "Створено за допомогою",
+  "checkout": {
+    "title": "Інформація про замовлення <= 100 символів.",
+    "descriptionLabel": "Опис <= 400 символів.",
+    "productTitle": "Lamel Professional Smart Skin Compact Powder",
+    "productSubtitle": "Пудра для обличчя",
+    "priceFree": "5 днів безкоштовно",
+    "priceAfter": "потім 299,99 грн кожні 14 днів"
+  },
+  "checkoutForm": {
+    "title": "Оформлення",
+    "freeTrial": "5 днів безкоштовно",
+    "priceInfo": "потім 299,99 грн кожні 14 днів",
+    "orPayWithCard": "або сплатіть карткою",
+    "infoText": "Ви отримаєте <bold>Plan Pro на 1 рік</bold>. Після цього терміну ваш план буде <bold>автоматично поновлено</bold> за початковою ціною без знижок.",
+    "applePayAlt": "Apple Pay"
+  },
+  "form": {
+    "snackbarSuccess": "Оплата успішна",
+    "cardNumber": "Номер картки",
+    "cardPlaceholder": "1234 1234 1234 1234",
+    "expiry": "Термін дії",
+    "expiryPlaceholder": "ММ/РР",
+    "cvc": "CVC",
+    "cvcPlaceholder": "•••"
+  },
+  "submitBtn": {
+    "pay": "Сплатити {{amount}} грн",
+    "processing": "Обробка платежу",
+    "loadingAlt": "Завантаження"
+  },
+  "formInput": {
+    "cvcTooltip": "3 цифри на звороті вашої картки"
+  },
+  "validation": {
+    "cardNumberRequired": "Потрібно вказати номер картки",
+    "cardNumberInvalid": "Номер картки має бути у форматі XXXX XXXX XXXX XXXX",
+    "expiryRequired": "Потрібно вказати дату закінчення",
+    "expiryInvalidFormat": "Формат має бути MM/YY",
+    "expiryExpired": "Картка прострочена",
+    "cvcRequired": "Потрібно вказати CVC",
+    "cvcLength": "CVC повинен містити 3 або 4 цифри",
+    "cvcInvalid": "CVC повинен бути числовим"
+  }
+}

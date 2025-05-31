@@ -1,0 +1,36 @@
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.text-large {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text-light {
+  color: #797E8B;
+}
+
+.text-medium {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.text-small {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@media(max-width: 1000px) {
+  .title {
+    font-size: 24px;
+  }
+}

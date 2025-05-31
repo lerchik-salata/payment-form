@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.backBtn {
+  background: none;
+  border: none;
+  position: absolute;
+  left: -32px;
+  padding: 8px 4px;
+  bottom: -40px;
+}
+
+@media(max-width: 1000px) {
+  .header {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 32px);
+    justify-content: space-between;
+  }
+
+  .backBtn {
+    position: static;
+  }
+}

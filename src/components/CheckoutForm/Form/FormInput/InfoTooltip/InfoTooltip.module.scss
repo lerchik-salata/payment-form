@@ -1,0 +1,36 @@
+.infoWrapper {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.infoBtn {
+  padding: 13px;
+
+  &:hover + .info,
+  &:focus + .info {
+    opacity: 1;
+    transform: translateY(-4px);
+    pointer-events: auto;
+  }
+}
+
+.info {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  transform: translateY(0);
+  background-color: $text-secondary;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 12px;
+  white-space: nowrap;
+  border-radius: 4px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  pointer-events: none;
+  z-index: 10;
+}
